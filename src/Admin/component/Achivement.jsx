@@ -24,7 +24,7 @@ const Achivement = () => {
                 <Typography variant="h5" sx={{my:3.1}}>420.8k</Typography>
                 <Button size="small" variant="contained">view sales</Button>
                 <TrignleImg src=""></TrignleImg> 
-                <TrophyImg src="https://w7.pngwing.com/pngs/827/981/png-transparent-gold-colored-trophy-illustration-pallet-box-manufacturing-plastic-industry-gold-trophy-company-gold-coin-gold-label-thumbnail.png" ></TrophyImg>
+                <TrophyImg src="https://www.pngmart.com/files/22/UEFA-Champions-League-PNG.png" ></TrophyImg>
             </CardContent>
      </Card>
     )
