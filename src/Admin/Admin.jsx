@@ -85,14 +85,14 @@ const Admin = () => {
 
   return (
     <div>
-      <div className='flex h-[100vh]'>
+      <div className='relative flex h-[100vh]'>
         <CssBaseline />
-        <div className='w-[15%] border border-r-gray-300 h-full '
+        <div className='w-[15%] border border-r-gray-300 h-full fixed top-0'
           
         >
           {drawer}
         </div>
-        <div className="w-[85%]">
+        <div className="w-[85%] h-full ml-[15%]">
           <Routes>
             <Route path="/" element={<AdminDashboard/>}></Route>
             <Route
